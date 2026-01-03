@@ -1,7 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import { navLinks } from "../constantes";
-import gsap from "gsap-trial";
-import { ScrollTrigger } from "gsap-trial/all";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
 
 gsap.registerPlugin(ScrollTrigger);
 

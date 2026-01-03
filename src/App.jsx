@@ -1,5 +1,5 @@
-import { ScrollTrigger, SplitText } from "gsap-trial/all";
-import gsap from "gsap-trial";
+import { ScrollTrigger, SplitText } from "gsap/all";
+import gsap from "gsap";
 import Navbar from "./componentes/Navbar";
 import Hero from "./componentes/Hero";
 import Cocktails from "./componentes/Cocktails";
