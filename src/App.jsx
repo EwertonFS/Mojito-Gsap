@@ -10,7 +10,7 @@ const App = () => {
     <main>
       <Navbar />
       <Hero />
-      <div className="h-dvh bg-black"></div>
+      {/* <div className="h-dvh bg-black">Div temporaria para testar scroll</div> */}
     </main>
   );
 };

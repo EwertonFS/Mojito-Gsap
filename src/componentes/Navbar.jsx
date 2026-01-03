@@ -3,6 +3,8 @@ import { navLinks } from "../constantes";
 import gsap from "gsap-trial";
 import { ScrollTrigger } from "gsap-trial/all";
 
+gsap.registerPlugin(ScrollTrigger);
+
 const Navbar = () => {
   useGSAP(() => {
     const navtween = gsap.timeline();
